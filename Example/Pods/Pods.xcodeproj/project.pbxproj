@@ -10,6 +10,7 @@
 		156527D16F040B2F8F3E12B4D9AE7212 /* Pods-ALSKeyboardLayoutGuide_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD37E88B1FF35DE8BD4ED8D94A244210 /* Pods-ALSKeyboardLayoutGuide_Example-dummy.m */; };
 		1C6AF0728A5D702BA12C68E4C02CC23B /* Pods-ALSKeyboardLayoutGuide_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D960DFA16E340F030113461FBCD180 /* Pods-ALSKeyboardLayoutGuide_Tests-dummy.m */; };
 		2F95CB0FA298FD01DD6B00B67AFBA068 /* ALSKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0C3361F6848A620C2A17E606573A22 /* ALSKeyboard.swift */; };
+		520788A423E13CC200CEABA3 /* UIView+KeyboardLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520788A323E13CC200CEABA3 /* UIView+KeyboardLayoutGuide.swift */; };
 		58893F53B36C6EF6E74049649F92D526 /* Pods-ALSKeyboardLayoutGuide_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 342A86CD2302E5D20E3678485DB521FF /* Pods-ALSKeyboardLayoutGuide_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A091155D024DFC865F5BD07DC4A62556 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A9AC43F02CD6CC5AD0B6B4103A067D54 /* ALSKeyboardLayoutGuide-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 766178F24A349D56FFDA0E1B38328249 /* ALSKeyboardLayoutGuide-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -51,6 +52,7 @@
 		342A86CD2302E5D20E3678485DB521FF /* Pods-ALSKeyboardLayoutGuide_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ALSKeyboardLayoutGuide_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3C9F26CC8F0714566549FA5826B60B9F /* ALSKeyboardLayoutGuide-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALSKeyboardLayoutGuide-dummy.m"; sourceTree = "<group>"; };
 		4EB6F0D05C2F2C95646A25FADF2F7933 /* Pods-ALSKeyboardLayoutGuide_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALSKeyboardLayoutGuide_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		520788A323E13CC200CEABA3 /* UIView+KeyboardLayoutGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+KeyboardLayoutGuide.swift"; sourceTree = "<group>"; };
 		6BEE28C68DAF474741755D9C2D8FF7B8 /* ALSKeyboardLayoutGuide-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ALSKeyboardLayoutGuide-Info.plist"; sourceTree = "<group>"; };
 		6EC4FFDA5E7991BAF4927C98EFB81AD1 /* ALSKeyboardLayoutGuide.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALSKeyboardLayoutGuide.xcconfig; sourceTree = "<group>"; };
 		766178F24A349D56FFDA0E1B38328249 /* ALSKeyboardLayoutGuide-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALSKeyboardLayoutGuide-umbrella.h"; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				9C0C3361F6848A620C2A17E606573A22 /* ALSKeyboard.swift */,
+				520788A323E13CC200CEABA3 /* UIView+KeyboardLayoutGuide.swift */,
 				DD7F8407B149D9B96CDA21FA3F2392BA /* Pod */,
 				31E1E52CF3A836594AEBEDDEABFAED56 /* Support Files */,
 			);
@@ -374,6 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F95CB0FA298FD01DD6B00B67AFBA068 /* ALSKeyboard.swift in Sources */,
+				520788A423E13CC200CEABA3 /* UIView+KeyboardLayoutGuide.swift in Sources */,
 				C307B987BF51681BE47A2BD1D38BE8BA /* ALSKeyboardLayoutGuide-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
