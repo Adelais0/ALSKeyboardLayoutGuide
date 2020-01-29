@@ -1,0 +1,6 @@
+framework module Pods_ALSKeyboardLayoutGuide_Example {
+  umbrella header "Pods-ALSKeyboardLayoutGuide_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module ALSKeyboardLayoutGuide {
+  umbrella header "ALSKeyboardLayoutGuide-umbrella.h"
+
+  export *
+  module * { export * }
+}

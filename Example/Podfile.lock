@@ -1,0 +1,16 @@
+PODS:
+  - ALSKeyboardLayoutGuide (0.1.0)
+
+DEPENDENCIES:
+  - ALSKeyboardLayoutGuide (from `../`)
+
+EXTERNAL SOURCES:
+  ALSKeyboardLayoutGuide:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ALSKeyboardLayoutGuide: 432addbd8f035daa8b03b4d0c9498418df3f001e
+
+PODFILE CHECKSUM: 703b9ee4f66dd648d9b4ff83f48257ef588ac128
+
+COCOAPODS: 1.8.4
