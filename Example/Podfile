@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ALSKeyboardLayoutGuide_Example' do
+  pod 'ALSKeyboardLayoutGuide', :path => '../'
+
+  target 'ALSKeyboardLayoutGuide_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
