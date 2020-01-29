@@ -1,9 +1,9 @@
 {
   "name": "ALSKeyboardLayoutGuide",
   "version": "0.1.0",
-  "summary": "A short description of ALSKeyboardLayoutGuide.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/lilingfeng/ALSKeyboardLayoutGuide",
+  "summary": "[Swift] Extend UIView to support layout with the keyboard.",
+  "description": "Implement a keyboard layout guide in UIView class by extension to support layout with the keyboard.",
+  "homepage": "https://github.com/Adelais0/ALSKeyboardLayoutGuide",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,13 +12,13 @@
     "lilingfeng": "lilingfengzero@gmail.com"
   },
   "source": {
-    "git": "https://github.com/lilingfeng/ALSKeyboardLayoutGuide.git",
+    "git": "https://github.com/Adelais0/ALSKeyboardLayoutGuide.git",
     "tag": "0.1.0"
   },
-  "swift_versions": "5.0",
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "ALSKeyboardLayoutGuide/Classes/**/*",
+  "swift_versions": "5.0",
+  "source_files": "ALSKeyboardLayoutGuide/Classes/**/*.{h,m,mm,swift}",
   "swift_version": "5.0"
 }
