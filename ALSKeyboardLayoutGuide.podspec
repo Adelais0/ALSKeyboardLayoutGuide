@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ALSKeyboardLayoutGuide'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Easily layout views to the keyboard in Swift.'
 
 # This description is used to generate tags and improve search results.

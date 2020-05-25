@@ -16,31 +16,23 @@ open class ALSKeyboard: NSObject {
     override init() {
         super.init()
         NotificationCenter.default.addObserver(self,
-                                               selector: #selector(keyboardWillShow(_:)),
-                                               name: UIResponder.keyboardWillShowNotification,
-                                               object: nil)
-
-        NotificationCenter.default.addObserver(self,
-                                               selector: #selector(keyboardWillChangeFrame(_:)),
+                                               selector: #selector(keyboardChanged(_:)),
                                                name: UIResponder.keyboardWillChangeFrameNotification,
                                                object: nil)
 
         NotificationCenter.default.addObserver(self,
-                                               selector: #selector(keyboardDidHide(_:)),
-                                               name: UIResponder.keyboardDidHideNotification,
+                                               selector: #selector(keyboardChanged(_:)),
+                                               name: UIResponder.keyboardDidChangeFrameNotification,
                                                object: nil)
     }
 
-    @objc private func keyboardWillShow(_ notification: Notification) {
-        userInfo = UserInfo(notification)
-    }
-
-    @objc private func keyboardWillChangeFrame(_ notification: Notification) {
-        userInfo = UserInfo(notification)
-    }
-
-    @objc private func keyboardDidHide(_ notification: Notification) {
-        userInfo = nil
+    @objc private func keyboardChanged(_ notification: Notification) {
+        let userInfo = UserInfo(notification)
+        let size = userInfo.endFrame?.size ?? .zero
+        guard size != .zero else {
+            return
+        }
+        self.userInfo = userInfo
     }
 
 }
